@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title-header{
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+}
+
+.game-title{
+    color: white;
+    text-align: center;
+}
+
+.img-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+}
+
+.rock, .paper, .scissor{
+    height: 13vw;
+}
+
+.result-box, .massage-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 200px;
+    margin: 40px;
+}
+
+.result-box p{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.massage{
+    font-size: 30px;
+    padding: 10px 120px;
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.g-img:hover{
+    border: 5px solid green;
+    border-radius: 50%;
+}
+
+
+.footer{
+    position: absolute;
+    background-color: #01011a;
+    color: white;
+    height: 15vh;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    padding: 20px 30px ;
+}
